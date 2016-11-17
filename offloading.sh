@@ -1,6 +1,10 @@
 #!/bin/bash
 # Este programa realiza a contagem de palavras em um arquivo por meio
 # da tecnica de offloading computacional.
+# 
+# Pre-requisitos: supomos que a sua chave publica ja estaja presente no host
+# de destino. Caso contrario, use o comando abaixo:
+# ssh-copy-id usuario@ip
 #
 # Mateus-n00b, Novembro 2016
 #
